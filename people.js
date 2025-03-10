@@ -21,7 +21,7 @@ console.log(`Hello ${adventureTimeMagicMan().name.firstName} ${adventureTimeMagi
 console.log(); //empty log for spacing reasons
 
 // a more dynamic version is the following
-const [inputName, inputLastName] = ['Magic', 'man']; // both could display inputs from a form or a prompt in the HTML
+const [inputName, inputLastName] = ['Magic', 'Man']; // both could display inputs from a form or a prompt in the HTML
 const [inputHobbyOne, inputHobbyTwo, inputHobbyThree] = ['magic', 'spells', 'torture']; // as above
 
 function getPersonWithHobbies(yourFirstName, yourLastName, yourHobbyOne, yourHobbyTwo, yourHobbyThree) {
